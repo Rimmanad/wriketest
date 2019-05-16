@@ -9,7 +9,6 @@ import org.openqa.selenium.support.PageFactory;
 public class WdTest {
     @Test
     public void testLogin() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\volova.r\\Downloads\\chromedriver_win32\\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.wrike.com/");
